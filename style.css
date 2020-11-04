@@ -1,7 +1,4 @@
-body{
-    /* padding: 60px; */
-    background-color: #ccc;
-}
+
 .container{
     background-color: darkgray;
 }
@@ -42,6 +39,10 @@ h1, .slide, h2, h3, h4, .price, p{
 .name{
     font-size: 20px;
 }
+.seller{
+  margin-top: 0;
+  padding: 0;
+}
 
 .card{
     /* width: 300px; ширина  изоброжения 300пиксилей
@@ -49,7 +50,10 @@ h1, .slide, h2, h3, h4, .price, p{
     padding: 10px 10px 5px 10px;
     overflow: hidden;
     display: inline-block; */
-    width: 500px;
+    width: 195px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
   margin: 0 10px;
   padding: 10px 10px 5px 10px;
   border: 1px solid #eee;
@@ -173,7 +177,7 @@ body {
   /* navbar */
   
   #navbar {
-    /* position: fixed; */
+    position: absolute;
     top: 0;
     width: 100%;
     display: block;

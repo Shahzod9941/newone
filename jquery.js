@@ -59,7 +59,8 @@ $(function () {
         infinite: true,  //Слайдер будет бесконечным
         slidesToShow: 1, //Сколько слайдов будет показанно на экране
         slidesToScroll: 1,  //Сколько слайдов переходить        
-        autoplay: true,
-        autoplaySpeed: 3000,
+        // autoplay: true,
+        // autoplaySpeed: 3000,
+        dots: true,
     })
 })
